@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435845874375",
+    "project_id": "cmsc23-todo-app-ona",
+    "storage_bucket": "cmsc23-todo-app-ona.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435845874375:android:5ebfb45eaaa2566e8e34e2",
+        "android_client_info": {
+          "package_name": "com.example.week7_networking_discussion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjUDcu7MpZANEb5l7jceCFHjjgJoEVR5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

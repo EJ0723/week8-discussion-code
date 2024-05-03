@@ -6,13 +6,13 @@
 import 'dart:convert';
 
 class Todo {
-  final int userId;
+  final int userID;
   String? id;
   String title;
   bool completed;
 
   Todo({
-    required this.userId,
+    required this.userID,
     this.id,
     required this.title,
     required this.completed,
@@ -21,7 +21,7 @@ class Todo {
   // Factory constructor to instantiate object from json format
   factory Todo.fromJson(Map<String, dynamic> json) {
     return Todo(
-      userId: json['userId'],
+      userID: json['userID'],
       id: json['id'],
       title: json['title'],
       completed: json['completed'],
@@ -35,7 +35,7 @@ class Todo {
 
   Map<String, dynamic> toJson(Todo todo) {
     return {
-      'userId': todo.userId,
+      'userID': todo.userID,
       'title': todo.title,
       'completed': todo.completed,
     };
